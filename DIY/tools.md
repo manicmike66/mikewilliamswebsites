@@ -10,6 +10,7 @@ description: "Website building services with more than 20 years experience based
 <div class="col-12 mb-1">
 <h2> <a href="knowledge.html">Knowledge of HTML, CSS and JS</a></h2>
 <h2> <a href="static_site_builder.html">Static site builder</a></h2>
+<h2> <a href="git.html">Git, to keep track of your code</a></h2>
 <h2> <a href="bootstrap.html">Bootstrap</a></h2>
 <h2> <a href="ide.html">An IDE</a></h2>
 <h2> <a href="">Be able to test for different sized screens</a></h2>
