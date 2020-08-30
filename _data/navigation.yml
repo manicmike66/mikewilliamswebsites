@@ -1,11 +1,31 @@
 - title: Home
   url: /
-- title: About
-  url: /about.html
+- title: Developing your own site
+  url: /DIY
   sublinks:
-    - title: About us
-      url: /about.html
-    - title: When to use a CMS
-      url: /cms.html
-    - title: When not to use a CMS
-      url: /nocms.html
+    - title: Developing your own site
+      url: /DIY/index.html
+    - title: What you will need
+      url: /DIY/tools.html
+    - title: Code tracking
+      url: /DIY/git.html
+    - title: Knowledge of the building blocks
+      url: /DIY/knowledge.html
+    - title: Static website builder
+      url: /DIY/static_site_builder.html
+    - title: Bootstrap
+      url: /DIY/bootstrap.html
+    - title: An IDE
+      url: /DIY/ide.html
+- title: Content Management Systems
+  url: /CMS
+  sublinks:
+    - title: What is a CMS?
+      url: /CMS/index.html
+    - title: When you need a CMS
+      url: /CMS/cms.html
+- title: Static websites
+  url: /Static
+  sublinks:
+    - title: Can I get away with a static website?
+      url: /Static

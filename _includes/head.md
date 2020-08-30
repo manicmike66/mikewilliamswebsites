@@ -10,6 +10,6 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <link rel="shortcut icon" href="{{ "favicon.ico"|relative_url }}" type="image/x-icon">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<link rel="stylesheet" href="{{"assets/css/style.css" | relative_url}}" type="text/css">
+<link rel="stylesheet" href="{{"assets/css/styles.css" | relative_url}}" type="text/css">
     </head>
 
