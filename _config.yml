@@ -1,7 +1,7 @@
 title: Mike Williams Websites
 email: mike@mikewilliamswebsites.com.au
-description: Cyndy Kitt
-baseurl: "/"
+description: Mike Williams creates websites
+baseurl: /mikewilliamswebsites
 url: "https://mikewilliamswebsites.com.au" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  manicmike66
 plugins:

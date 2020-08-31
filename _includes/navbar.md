@@ -70,23 +70,23 @@ $(document).ready(function(){
     <ul class="navbar-nav mx-auto"><!-- nav navbar-nav">-->
         {% assign navstyle = 'border border-white mx-2 bg-danger' %}
         {% assign links = site.data.navigation %}
-        {% for link in links %}
+        {% for entry in links %}
             {% assign class = nav-item %}
-            {% if page.url == link.url %}
+            {% if page.url == entry.url %}
                 {% assign class = 'nav-item active' %}
             {% endif %}
-            {% if link.sublinks %}
-                <li id="{{link.title}}-menu" id="{{ class }}" class="{{ navstyle }} nav-item dropdown {{ class }} ">
-                    <a href="{{ link.url }}" id="{{link.title}}-link" class="text-light nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ link.title }} <span class="caret"></span></a>
-                    <div class="dropdown-menu" aria-labelledby="{{link.title}}-link">
-                        {% for sublink in link.sublinks %}
-                            <a class="dropdown-item" href="{{ sublink.url }}">{{ sublink.title }}</a>
+            {% if entry.sublinks %}
+                <li id="{{entry.title}}-menu" id="{{ class }}" class="{{ navstyle }} nav-item dropdown {{ class }} ">
+                    <a href="{{ site.baseurl }}{{ entry.url }}" id="{{entry.title}}-link" class="text-light nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ entry.title }} <span class="caret"></span></a>
+                    <div class="dropdown-menu" aria-labelledby="{{entry.title}}-link">
+                        {% for sublink in entry.sublinks %}
+                            <a class="dropdown-item" href="{{ site.baseurl }}{{ sublink.url }}">{{ sublink.title }}</a>
                         {% endfor %}
                     </div>
                 </li>
             {% else %}
                 <li id="{{ class }}" class="{{ class }} {{navstyle}}">
-                    <a class="nav-link " href="{{ link.url }}">{{ link.title }}</a>
+                    <a class="nav-link " href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a>
                 </li>
             {% endif %}
         {% endfor %}
