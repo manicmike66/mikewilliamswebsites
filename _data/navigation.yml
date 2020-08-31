@@ -1,5 +1,10 @@
 - title: Home
   url: /
+  sublinks:
+    - title: About
+      url: /index.html
+    - title: Contact
+      url: /contact.html
 - title: Developing your own site
   url: /DIY
   sublinks:
